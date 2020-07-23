@@ -18,10 +18,12 @@ from tg_bot.modules.helper_funcs.chat_status import is_user_admin
 from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
-ഹായ് {}, എന്റെ പേര് {}! എന്നെ നോക്കിനടത്തുന്നത് [ഇദ്ദേഹം](https://t.me/mayflower01) ആണ്. നിങ്ങൾ അധിക സമയം ഇവടെ നിന്നിട്ടു ഒരു കാര്യവും ഇല്ല എന്നെ താഴെ കാണുന്ന ഗ്രൂപ്പിൽ മാത്രമേ ഉബയോഗിക്കാൻ കഴിയു [A 2 Z MOVIES](https://t.me/a2zmovieschanneplgroup)
+ഹായ് {}, എന്റെ പേര് {}! എന്നെ നോക്കിനടത്തുന്നത് [ഇദ്ദേഹം](https://t.me/mayflower01) ആണ്.
+നിങ്ങൾ അധിക സമയം ഇവടെ നിന്നിട്ടു ഒരു കാര്യവും ഇല്ല എന്നെ താഴെ കാണുന്ന ഗ്രൂപ്പിൽ മാത്രമേ ഉബയോഗിക്കാൻ കഴിയു
+[A 2 Z MOVIES](https://t.me/a2zmovieschanneplgroup)
 {}
 And the following:
-""".format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nഈ പറഞ്ഞിരിക്കുന്ന commandകൾ എല്ലാം  / അല്ലെങ്കിൽ ! വെച്ച് ഉപയോഗിക്കാവുന്നതാണ്...\n")
+""".format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\n ഈ പറഞ്ഞിരിക്കുന്ന commandകൾ എല്ലാം / അല്ലെങ്കിൽ ! വെച്ച് ഉപയോഗിക്കാവുന്നതാണ്...\n")
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 It took lots of work for [my creator](t.me/sonoflars) to get me to where I am now, and every donation helps \
